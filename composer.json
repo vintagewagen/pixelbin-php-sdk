@@ -1,0 +1,30 @@
+{
+    "name": "pixelbin/pixelbin",
+    "description": "Pixelbin Backend SDK for PHP helps you integrate the core Pixelbin features with your application.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "php",
+        "pixelbin",
+        "api",
+        "sdk",
+        "image management"
+    ],
+    "homepage": "https://www.pixelbin.io/",
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "justinrainbow/json-schema": "^5.2"
+    },
+    "autoload": {
+        "classmap": [
+            "Pixelbin/"
+        ],
+        "psr-4": {
+            "Pixelbin\\": "Pixelbin/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3",
+        "dms/phpunit-arraysubset-asserts": "^0.5.0"
+    }
+}
