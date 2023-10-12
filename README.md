@@ -9,7 +9,7 @@ Getting started with Pixelbin Backend SDK for PHP
 ### Installation
 
 ```
-composer require fynd/pixelbin
+composer require pixelbin/pixelbin
 ```
 
 ---
@@ -180,4 +180,4 @@ $url = Url::obj_to_url($obj); // $obj is as shown above
 
 ## Documentation
 
--   [API docs](documentation/platform/README.md)
+- [API docs](documentation/platform/README.md)
